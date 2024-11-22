@@ -341,3 +341,10 @@
 }
 
 
+@media (max-width: 500px) {
+    .center-body-time
+    {
+        font-size: 1.75em;
+        border-radius: 10px;
+    }
+}

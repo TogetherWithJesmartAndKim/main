@@ -118,15 +118,18 @@ body
         width: 100vw;
     }    
 
+
     #center-body
     {
+        margin: 5% 0 0 0;
         width: 100vw;
     }
     .body-context-image
     {
         width: 100%;
     }
-
 } 
+
+ 
 
 
