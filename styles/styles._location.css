@@ -1,0 +1,245 @@
+*
+{
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+/*structure of website*/
+#header 
+{
+    background-color: #e9d6f0;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#body
+{
+    background-color: #e9d6f0;
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 40% 20% 40%;
+    grid-template-columns: 10% 80% 10%;
+}
+
+
+
+
+/* structure of the header */
+#header a 
+{
+    font-size: 1.5em;
+    font-family: "Benne", serif;;
+    text-decoration: none;
+    color: #443f5a;
+
+}
+
+
+
+
+
+/* structure of body */
+#top-left-body
+{
+    grid-area: 1/1;
+}
+#bottom-left-body
+{
+    grid-area: 3/1;
+}
+
+
+#center-body
+{
+    grid-area: 1/2/span 4 / span 1;
+    justify-self: center;
+    align-self: flex-start;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#picture_1_area
+{
+    width: 40%;
+    margin: 0 5% 0 0;
+    justify-items: center;
+    
+}
+#picture_2_area
+{
+    width: 40%;
+    margin: 0 0 0 5%;
+    justify-items: center;
+}
+
+#top-right-body
+{
+    grid-area: 1/3;
+}
+#bottom-right-body
+{
+    grid-area: 3/3;
+}
+
+
+
+/* Grouped Designs */
+.logo_picture
+{
+    height: 55px;
+    width: 55px;
+    padding: 20px 0 0 0;
+    background-color: #e9d6f0;
+
+}
+.logo_size
+{
+    height: 100%;
+    width: 100;
+    background-color: #443f5a;
+    border-radius: 30px;
+}
+.logo_structure
+{
+    font-size: 0em;
+    background-color: #e9d6f0;
+    color: black;
+    font-family: "Benne", serif;
+}
+
+
+.body-content-image-upper
+{
+    height: 100%;
+    width: 100%;
+}
+
+.body-content-image-lower
+{
+    height: 98.5%;
+    width: 100%;
+}
+
+.img 
+{
+    width: 100%;
+}
+
+.center-body-bennet
+{
+    font-family: "Benne", serif;
+    font-size: 2em;
+    text-align: center;
+    color: #443f5a;
+
+}
+.center-body-bennet_small
+{
+    font-family: "Benne", serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #443f5a;
+
+}
+
+.button_loc 
+{
+    height: 50px;
+    background-color: #443f5a;
+    color: #e9d6f0;
+    border-radius: 10px;
+}
+
+.button_text
+{
+    font-size: 1.5em;
+    font-family: "Benne", serif;
+    margin: 0 20px 0 20px;
+}
+
+/* Actions */
+.logo_structure:hover .logo_size
+{    
+    height: 90%;
+    width: 90%;
+    background-color: #837ca3;
+    border-radius: 30px;
+}
+
+.logo_structure:hover
+{    
+    font-size: 0.6em;
+}
+
+.button_loc:hover
+{
+    background-color: #837ca3;
+    height: 60px;
+}
+
+.button_loc:hover .button_text
+{
+    font-size: 1.7em;
+}
+
+
+
+
+/* Actions */
+
+@media(max-width: 800px)
+{
+   
+    body
+    {
+        background-color: #e9d6f0;
+   
+    }
+
+    #body
+    {
+        grid-template-rows: 40% 60% 0%;
+        grid-template-columns: 20% 60% 20%;
+    }
+   
+    #center-body
+    {
+        flex-direction: column;
+    }
+    .center-body-bennet
+    {
+        font-size: 1.5em;
+        text-align: center;
+    
+    }
+    .center-body-bennet_small
+    {
+        font-size: 1em;
+    
+    }
+    #picture_1_area
+    {
+        width: 80%;
+        height: 80%;
+        margin: 0 0 0 5%;
+        
+    }
+    #picture_2_area
+    {
+        width: 80%;
+        height: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+
+} 

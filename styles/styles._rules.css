@@ -1,0 +1,136 @@
+*
+{
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+body
+{
+    overflow-x: hidden;
+}
+
+/*structure of website*/
+#header 
+{
+    overflow: auto;
+    background-color: #e9d6f0;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#body
+{
+    background-color: #e9d6f0;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 40% 20% 40%;
+    grid-template-columns: 10% 80% 10%;
+}
+
+
+
+
+
+/* structure of the header */
+#header a 
+{
+    font-size: 1.5em;
+    font-family: "Benne", serif;;
+    text-decoration: none;
+    color: #443f5a;
+
+}
+
+/* structure of body */
+
+
+#center-body
+{
+
+    grid-area: 1/2/span 3 / span 1;
+    justify-self: center;
+    align-self: flex-start;
+}
+
+
+
+
+/* Grouped Designs */
+.logo_picture
+{
+    height: 55px;
+    width: 55px;
+    padding: 20px 0 0 0;
+    background-color: #e9d6f0;
+
+}
+.logo_size
+{
+    height: 100%;
+    width: 100;
+    background-color: #443f5a;
+    border-radius: 30px;
+}
+.logo_structure
+{
+    font-size: 0em;
+    background-color: #e9d6f0;
+    font-family: "Benne", serif;
+}
+
+
+.body-context-image
+{
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+/* Actions */
+.logo_structure:hover .logo_size
+{    
+    height: 90%;
+    width: 90%;
+    background-color: #837ca3;
+    border-radius: 30px;
+}
+
+.logo_structure:hover
+{    
+    font-size: 0.6em;
+}
+
+
+
+
+/* Actions */
+
+@media(max-width: 800px){
+    #body
+    {
+        width: 100vw;
+        height: 100vh;
+    }    
+
+    #center-body
+    {
+        width: 100vw;
+    }
+    .body-context-image
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+} 
