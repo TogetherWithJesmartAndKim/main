@@ -21,7 +21,7 @@
 #body
 {
     background-color: #e9d6f0;
-    height: 88vh;
+    height: 87.9vh;
     width: 100vw;
     display: grid;
     grid-template-rows: 40% 20% 40%;
@@ -207,7 +207,7 @@
 
     #body
     {
-        grid-template-rows: 40% 60% 0%;
+        grid-template-rows: 30% 70% 0%;
         grid-template-columns: 20% 60% 20%;
     }
    
@@ -246,3 +246,11 @@
 } 
 
 
+
+@media (max-width: 500px) {
+    #body
+    {
+        grid-template-rows: 15% 85% 0;
+    }
+
+}

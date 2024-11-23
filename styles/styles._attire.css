@@ -4,6 +4,7 @@
     margin: 0;
     border: 0;
     padding: 0;
+    background-color: #e9d6f0;
 }
 
 
@@ -18,7 +19,7 @@ body
 {
     overflow: auto;
     background-color: #e9d6f0;
-    height: 12vh;
+    height: 14.5vh;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -28,7 +29,6 @@ body
 #body
 {
     background-color: #e9d6f0;
-    height: 88vh;
     width: 100vw;
     display: grid;
     grid-template-rows: 40% 20% 40%;
@@ -113,11 +113,8 @@ body
     font-size: 0.6em;
 }
 
+
 /* Responsiveness */
-
-
-/* Actions */
-
 @media(max-width: 800px){
     #body
     {

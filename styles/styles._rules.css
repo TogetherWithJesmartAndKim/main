@@ -126,10 +126,10 @@ body
     #center-body
     {
         width: 100vw;
+        background-color: #e9d6f0;
     }
     .body-context-image
     {
-        height: 100%;
         width: 100%;
     }
 
