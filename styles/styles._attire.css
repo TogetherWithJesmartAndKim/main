@@ -134,7 +134,10 @@ body
     width: 100%;
     color: #443f5a;
 }
-
+.center-body-bennet-space
+{
+    height: 3%;
+}
 
 
 
@@ -165,18 +168,18 @@ body
     
     #attire-logo
     {
-        height: 200px;
-        width: 200px
+        height: 250px;
+        width: 250px
     }
     #body-attire-bottom
     {
-        width: 70%;
+        width: 75%;
         height: 10%;
     }
     
     .center-body-bennet
     {
-        font-size: .9em;
+        font-size: 1em;
     }
     
 
