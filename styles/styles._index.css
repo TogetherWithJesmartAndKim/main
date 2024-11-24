@@ -97,11 +97,14 @@
     background-color: hsla(284, 46%, 89%,0.55);
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
     z-index: 0;
 }
 #center-body-overlay img
-{
-    margin: 0 0 0 18%;   
+{ 
     height: 30%;
     width: 60%;
 
@@ -111,20 +114,20 @@
     grid-area: 3/2;
     display: flex;
     justify-content: space-around;          
+    align-content: flex-start;
 }  
 
 
 
 #center-body-stopwatch
 {
-    justify-self: center;
     display: flex;
     justify-content: space-around;
     width: 70%;
 }
 #center-body-stopwatch-text
 {
-    justify-self: center;
+
     display: flex; 
     justify-content: space-around;
     width: 70%;
@@ -157,7 +160,7 @@
 .logo_size
 {
     height: 100%;
-    width: 100;
+    width: 100%;
     background-color: #443f5a;
     border-radius: 30px;
 }
@@ -215,7 +218,7 @@
     font-size: 1.25em;
     font-family:'Carattere', cursive;
     text-align: center;
-    padding: 0 0 0 3.5%;
+    padding: 0 0 0 2.5%;
 
 }
 
@@ -386,7 +389,8 @@
 @media (max-width: 500px) {
     #body
     {
-        grid-template-rows: 15% 70% 14%;
+        grid-template-columns: 15% 70% 15%;
+        grid-template-rows: 18% 64% 18%;
     }
     .center-body-cursive
     {
