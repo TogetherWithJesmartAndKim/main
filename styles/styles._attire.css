@@ -88,18 +88,23 @@ body
 #body-attire-bottom
 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    width: 50%;
-    height: 18%;
+    height: 25%;
 }
 
-#body-attire-bottom img
+#couple_image
 {
     height: 100%;
-    width: 100%;
+    width: 25%;
 }
 
+#color_image
+{
+    align-self: flex-end;
+    height: 70%;
+    width: 70%;
+}
 
 
 
@@ -134,10 +139,7 @@ body
     width: 100%;
     color: #443f5a;
 }
-.center-body-bennet-space
-{
-    height: 3%;
-}
+
 
 
 
@@ -168,19 +170,37 @@ body
     
     #attire-logo
     {
-        height: 250px;
-        width: 250px
+        height: 200px;
+        width: 200px
     }
+
+    
+    
     #body-attire-bottom
     {
-        width: 75%;
-        height: 10%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #couple_image
+    {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #color_image
+    {
+        height: 15%;
+        width: 100%
     }
     
     .center-body-bennet
     {
-        font-size: 1em;
+        font-size: .9em;
     }
     
-
+    
 } 
