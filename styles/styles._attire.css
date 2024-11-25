@@ -174,18 +174,17 @@
         justify-content: flex-start;
         flex-direction: column;
         width: 100%;
-        height: 48%;
     }
     
     #couple_image
     {
         height: 100%;
-        width: 100%;
+        width: 90%;
     }
     
     #color_image
     {
-        height: 100%;
+        height: 30%;
         width: 100%
     }
     

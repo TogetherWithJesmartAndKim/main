@@ -390,7 +390,7 @@
     #body
     {
         grid-template-columns: 15% 70% 15%;
-        grid-template-rows: 18% 64% 18%;
+        grid-template-rows: 18% 67% 15%;
     }
     .center-body-cursive
     {
