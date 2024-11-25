@@ -11,7 +11,7 @@
 #header 
 {
     background-color: #e9d6f0;
-    height: 12vh;
+    height: 14vh;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -21,7 +21,7 @@
 #body
 {
     background-color: #e9d6f0;
-    height: 87.9vh;
+    height: 86vh;
     width: 100vw;
     display: grid;
     grid-template-rows: 40% 20% 40%;
@@ -104,7 +104,7 @@
 {
     height: 55px;
     width: 55px;
-    padding: 20px 0 0 0;
+    padding: 0 0 0 0;
     background-color: #e9d6f0;
 
 }
