@@ -17,7 +17,7 @@ body
 {
     overflow: auto;
     background-color: #e9d6f0;
-    height: 12vh;
+    height: 14vh;
     width: 100vw;
     display: flex;
     justify-content: space-around;
