@@ -395,12 +395,12 @@
     #center-body-frame
     {
         position: absolute; 
-        height: 52%;
+        height: 48%;
     }
     #center-body-image
     {
-        margin: 1% 0 0% 2.5%;
-        height: 108%;
+        margin: 0 0 0 2.5%;
+        height: 100%;
     }
     #center-body-overlay img
     { 
@@ -433,7 +433,7 @@
     }
     .center-body-time
     {
-        font-size: 2.5em;
+        font-size: 1.7em;
         border-radius: 10px;
     }
     .contained_buttons
