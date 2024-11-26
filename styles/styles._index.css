@@ -342,13 +342,8 @@
     {
         font-size: 1em;
     }
-    #center-body-image
-    {
-        margin: 5% 2% 2% 2%;
-    }
     #center-body-overlay img
-    {
-        margin: 0 0 0 10%;   
+    { 
         height: 20%;
         width: 80%;
     
@@ -378,7 +373,6 @@
     }
     #center-body-overlay img
     {
-        margin: 0 0 0 10%;   
         height: 20%;
         width: 80%;
     
@@ -389,28 +383,57 @@
 @media (max-width: 500px) {
     #body
     {
-        grid-template-columns: 15% 70% 15%;
-        grid-template-rows: 18% 67% 15%;
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 20% 60% 20%;
     }
+    #center-body
+    {
+        grid-area: 2/1 /span 1/ span 3;
+        grid-template-rows: .5fr 90% 2.5fr;
+        grid-template-columns: .1fr 100% .1fr;
+    }
+    #center-body-frame
+    {
+        position: absolute; 
+        height: 52%;
+    }
+    #center-body-image
+    {
+        margin: 1% 0 0% 2.5%;
+        height: 108%;
+    }
+    #center-body-overlay img
+    { 
+        height: 30%;
+        width: 50%;
+        margin: 0 0 0% 0%;
+    
+    }
+    #center-body-buttons
+    {
+        position: absolute;
+        width: 50%;
+        height: 60%;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin: 0 0 0 25%;
+    }  
+    
     .center-body-cursive
     {
         font-size: 4em;
     }
     .center-body-bennet
     {
-        font-size: .75em;
+        font-size: 1em;
+    }
+    .center-body-time-name
+    {
+        font-size: 1.2em;
     }
     .center-body-time
     {
         font-size: 2.5em;
-    }
-    .center-body-time-name
-    {
-        font-size: 1em;
-    }
-    .center-body-time
-    {
-        font-size: 1em;
         border-radius: 10px;
     }
     .contained_buttons

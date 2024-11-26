@@ -237,17 +237,15 @@
     {
         width: 80%;
         height: 80%;
-        margin: 10% 0 0 5%;
+        margin: 10% 0 0 12%;
         
     }
     #picture_2_area
     {
         width: 80%;
         height: 80%;
-        margin-top: 5%;
-        margin-bottom: 5%;
         padding-bottom: 10%;
-        margin: 10% 0 0 5%;
+        margin: 10% 0 0 12%;
     }
 
 } 
@@ -257,7 +255,7 @@
 @media (max-width: 500px) {
     #body
     {
-        grid-template-rows: 15% 85% 0;
+        grid-template-rows: 25% 75% 0;
     }
 
 }

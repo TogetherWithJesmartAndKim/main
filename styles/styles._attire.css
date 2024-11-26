@@ -110,7 +110,7 @@
     width: 55px;
     padding: 0 0 0 0;
     background-color: #e9d6f0;
-
+    
 }
 .logo_size
 {
@@ -135,6 +135,10 @@
     color: #443f5a;
 }
 
+.spacing
+{
+    margin: .2% 0 0 0;
+}
 
 
 
@@ -160,7 +164,11 @@
 
     #body
     {
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 60% 40%;
+    }
+    #body-attire-content
+    {
+        margin: 0 0 0 5%;
     }
     
     #attire-logo
@@ -190,8 +198,12 @@
     
     .center-body-bennet
     {
-        font-size: .9em;
+        font-size: 1em;
     }
-    
+
+    .spacing
+    {
+        margin: 5% 0 0 0;
+    }
     
 } 
