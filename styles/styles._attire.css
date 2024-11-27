@@ -69,7 +69,11 @@
 #body-attire-design
 {
     grid-area: 1/2;
-    justify-content: flex-start;
+    background-image: url(../images/k&j_page4_flower.png);
+    background-repeat: repeat-y;
+    background-position-x: 100%;
+    background-size: contain;
+    justify-content: flex-end;
     align-items: center;
 }
 

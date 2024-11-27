@@ -260,8 +260,8 @@
 
 /* Responsiveness */
 
-
-@media (max-width: 1300px) {
+/* Width */
+@media (max-width: 1300px ) {
 
     /* Grouped Designs */
     
@@ -325,6 +325,26 @@
     {
         width: 40%;
     }
+
+    .center-body-bennet
+    {   
+        font-size: 1.2em;
+    }
+    
+    .center-body-cursive
+    {
+        font-size: 5.5em;
+        
+    }
+    
+    .center-body-time
+    {
+        font-size: 2.5em;
+    }
+    .center-body-time-name
+    {
+        font-size: 1.2em;
+    }    
     
 }
 
@@ -354,13 +374,15 @@
     }
     .center-body-bennet
     {   
-        font-size: 1em;
+        font-size: .8em;
+        width: 80%;
     }
     
     .center-body-cursive
     {
         font-size: 5em;
-        padding: 25% 5% 0 0;
+        padding: 15% 5% 0 0;
+        width: 90%;
         
     }
     
@@ -372,4 +394,22 @@
     {
         font-size: 1.5em;
     }    
+}
+
+
+/* Height */
+
+@media (max-height: 670px) {
+    .center-body-bennet
+    {   
+        font-size: .8em;
+    }
+    
+    .center-body-cursive
+    {
+        font-size: 5em;
+        padding: 10% 0 0 0;
+        
+    }
+
 }
