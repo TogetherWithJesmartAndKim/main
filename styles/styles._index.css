@@ -4,6 +4,7 @@
     margin: 0;
     border: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 
@@ -12,7 +13,7 @@
 {
     background-color: #e9d6f0;
     height: 14vh;
-    width: 100vw;
+    width: 100dvw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,18 +21,15 @@
 
 #body
 {
-    background-color:#e9d6f0;
+    background-color: #e9d6f0;
+    width: 100dvw;
     height: 86vh;
-    width: 100vw;
-    display: grid;
-    grid-template-rows: 40% 20% 40%;
-    grid-template-columns: 20% 60% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-
-
-
-
+/* structure of header  */
 #header a 
 {
     font-size: 1.5em;
@@ -42,58 +40,57 @@
 }
 
 /* structure of body */
-#top-left-body
+#body-top-design-left
 {
-    grid-area: 1/1;
-}
-#bottom-left-body
-{
-    grid-area: 3/1;
-}
-
-
-#center-body
-{
-    grid-area: 1/2 /span 3/ span 1;
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-rows: .2fr 80% 1fr;
-    grid-template-columns: 1fr 80% 1fr;
-
-}
-#center-body-frame
-{
-
-    grid-area: 2/2;
-    background-image: url("../images/Picture_frame.png");
-    background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 1fr 90% 1fr;
-    grid-template-columns: 1fr 90% 1fr;
+    background-image: url(../images/K&J_main_page_design_left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 50%;   
     z-index: 1;
-    
-    
 }
+
+#body-top-design-center
+{
+    width: 80%;
+    height: 10%;   
+
+}
+#body-top-design-right
+{
+    background-image: url(../images/K&J_main_page_design_right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 50%;   
+    z-index: 1;  
+}
+
+#body-content-layer
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+}
+
 #center-body-image
 {
-    grid-area: 2/2;
     background-image: url("../images/dynamic_background/khian_1.jpg");
-    background-size: 100% 100%;
-    height: 95%;
-    width: 95%;
-    display: grid;
-    margin: 2.5% 2.5%;
-    grid-template-rows: 1fr 100% 1fr;
-    grid-template-columns: 1fr 100% 1fr;
-    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: 40% 0%;
+    background-size: cover;
+    height: 70%;
+    width: 50%;
+    display: flex;
     animation: change 10s 5s infinite ease-in-out;
 }
 #center-body-overlay
 {
-    grid-area: 2/2;
     background-color: hsla(284, 46%, 89%,0.55);
     height: 100%;
     width: 100%;
@@ -103,12 +100,7 @@
     flex-direction: column;
     z-index: 0;
 }
-#center-body-overlay img
-{ 
-    height: 30%;
-    width: 60%;
 
-}
 #center-body-buttons
 {
     grid-area: 3/2;
@@ -116,8 +108,6 @@
     justify-content: space-around;          
     align-content: flex-start;
 }  
-
-
 
 #center-body-stopwatch
 {
@@ -132,23 +122,18 @@
     justify-content: space-around;
     width: 70%;
 }
-
-/* Location functions */
-
-
-
-#top-right-body
+#center-body-buttons
 {
-    grid-area: 1/3;
-}
-#bottom-right-body
-{
-    grid-area: 3/3;
-}
-
-
+    display: flex;
+    justify-content: space-around;          
+    align-content: flex-start;
+    width: 30%;
+    margin: 1% 0 0 0;
+}  
 
 /* Grouped Designs */
+
+/* Header */
 .logo_picture
 {
     height: 55px;
@@ -172,22 +157,13 @@
 }
 
 
-.body-content-image-upper
-{
-    height: 100%;
-    width: 100%;
-}
 
-.body-content-image-lower
-{
-    height: 97.5%;
-    width: 100%;
-}
 
+/* Body */
 .center-body-bennet
 {
     font-family: "Benne", serif;
-    font-size: 1.75em;
+    font-size: 1.55em;
     text-align: center;
     width: 100%;
     color: #443f5a;
@@ -196,16 +172,17 @@
 .center-body-cursive
 {
     font-family: 'Carattere', cursive;
-    font-size: 6em;
+    font-size: 8em;
     text-align: center;
-    padding: 3% 0 0 0;
+    padding: 10% 0 3% 0;
+    width: 100%;
     color: #443f5a;
-
+    
 }
 
 .center-body-time
 {
-    font-size: 3em;
+    font-size: 3.5em;
     font-family:'Carattere', cursive;
     text-align: center;
     border: #443f5a solid 4px;
@@ -215,7 +192,7 @@
 }
 .center-body-time-name
 {
-    font-size: 1.25em;
+    font-size: 2em;
     font-family:'Carattere', cursive;
     text-align: center;
     padding: 0 0 0 2.5%;
@@ -226,7 +203,6 @@
 {
     height: 50px;
     width: 100%;
-    align-items: flex-start;
     background-color: #443f5a;
     color: #e9d6f0;
     border-radius: 10px;
@@ -237,6 +213,8 @@
 
 
 /* Actions */
+
+/* Header */
 .logo_structure:hover .logo_size
 {    
     height: 85%;
@@ -250,6 +228,7 @@
     font-size: 0.6em;
 }
 
+/* Body */
 .contained_buttons:hover
 {
     background-color: #837ca3;
@@ -262,6 +241,8 @@
 
 
 /* Animations */
+
+/* Body  */
 @keyframes change {
     0%
     {
@@ -278,169 +259,117 @@
 }
 
 /* Responsiveness */
-@media(max-width: 1200px){
-    .center-body-time
-    {
-        font-size: 4.5em;
-    }
-    .center-body-time-name
-    {
-        font-size: 1.75em;
-    }
-}
 
-@media(max-width: 1070px){
 
-    #body
-    {
-        grid-template-rows: 30% 40% 30%;
-        grid-template-columns: 10% 80% 10%;
+@media (max-width: 1300px) {
+
+    /* Grouped Designs */
+    
+    /* Body */
+    .center-body-bennet
+    {   
+        font-size: 1.4em;
     }
+    
     .center-body-cursive
     {
-        font-size: 5em;
+        font-size: 6em;
+        
     }
-    .center-body-bennet
-    {
-        font-size: 1.5em;
-    }
-    .center-body-time
-    {
-        font-size: 4.0em;
-    }
-    .center-body-time-name
-    {
-        font-size: 1.5em;
-    }
-} 
-
-
-@media (max-width: 928px) {
-    #body
-    {
-        grid-template-rows: 25% 50% 25%;
-    }
-
-    #body
-    {
-
-        grid-template-columns: 10% 80% 10%;
-    }
-    .center-body-cursive
-    {
-        font-size: 5.5em;
-    }
-    .center-body-bennet
-    {
-        font-size: 1.25em;
-    }
+    
     .center-body-time
     {
         font-size: 3em;
     }
     .center-body-time-name
     {
-        font-size: 1em;
-    }
-    #center-body-overlay img
-    { 
-        height: 20%;
-        width: 80%;
-    
-    }
+        font-size: 1.7em;
+    }    
 }
 
-@media (max-width: 700px) {
-    #body
+@media (max-width: 850px) {
+    #body-content-layer
     {
-        grid-template-rows: 20% 60% 20%;
+        padding: 5% 0 0 0;
     }
-    .center-body-cursive
+    #center-body-image
     {
-        font-size: 5em;
+        height: 70%;
+        width: 90%;
     }
-    .center-body-bennet
-    {
-        font-size: 1em;
-    }
-    .center-body-time
-    {
-        font-size: 2.5em;
-    }
-    .center-body-time-name
-    {
-        font-size: 1em;
-    }
+
     #center-body-overlay img
     {
-        height: 20%;
-        width: 80%;
-    
+        width: 90%;
+        height: 30%;
     }
+    #body-top-design-left
+    {
+        width: 70%;
+        height: 70%;   
+    }
+    
+    #body-top-design-center
+    {
+        width: 60%;
+        height: 10%;   
+        
+    }
+    #body-top-design-right
+    {
+        width: 70%;
+        height: 70%;   
+    }
+    
+    #center-body-buttons
+    {
+        width: 40%;
+    }
+    
 }
 
 
 @media (max-width: 500px) {
-    #body
+    #body-top-design-left
     {
-        grid-template-columns: 25% 50% 25%;
-        grid-template-rows: 20% 60% 20%;
+        width: 80%;
+        height: 80%;   
     }
-    #center-body
+    
+    #body-top-design-center
     {
-        grid-area: 2/1 /span 1/ span 3;
-        grid-template-rows: .5fr 90% 2.5fr;
-        grid-template-columns: .1fr 100% .1fr;
-    }
-    #center-body-frame
-    {
-        position: absolute; 
-        height: 48%;
-    }
-    #center-body-image
-    {
-        margin: 0 0 0 2.5%;
-        height: 100%;
-    }
-    #center-body-overlay img
-    { 
-        height: 30%;
-        width: 50%;
-        margin: 0 0 0% 0%;
+        width: 20%;
+        height: 10%;   
     
     }
+    #body-top-design-right
+    {
+        width: 80%;
+        height: 80%;   
+    }
+    
     #center-body-buttons
     {
-        position: absolute;
-        width: 50%;
-        height: 60%;
-        justify-content: space-around;
-        align-items: flex-end;
-        margin: 0 0 0 25%;
-    }  
+        width: 60%;
+    }
+    .center-body-bennet
+    {   
+        font-size: 1.2em;
+    }
     
     .center-body-cursive
     {
-        font-size: 4em;
+        font-size: 5em;
+        padding: 25% 5% 0 0;
+        
     }
-    .center-body-bennet
+    
+    .center-body-time
     {
-        font-size: 1em;
+        font-size: 2em;
     }
     .center-body-time-name
     {
-        font-size: 1.2em;
-    }
-    .center-body-time
-    {
-        font-size: 1.7em;
-        border-radius: 10px;
-    }
-    .contained_buttons
-    {
-        height: 50px;
-        width: 100%;
         font-size: 1.5em;
-        padding: 0 10px 0 10px;
-    }
+    }    
 }
