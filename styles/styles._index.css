@@ -380,7 +380,7 @@
     
     .center-body-cursive
     {
-        font-size: 5em;
+        font-size: 4.5em;
         padding: 15% 5% 0 0;
         width: 90%;
         
@@ -399,7 +399,8 @@
 
 /* Height */
 
-@media (max-height: 670px) {
+@media (max-height: 670px) 
+{
     #center-body-overlay img
     {
         width: 70%;
@@ -409,12 +410,34 @@
     .center-body-bennet
     {   
         font-size: .8em;
+        width: 95%;
     }
     
     .center-body-cursive
     {
-        font-size: 5em;
+        font-size: 4.5em;
         padding: 10% 0 0 0;
+        
+    }
+}
+
+@media (max-height: 670px) {
+    #center-body-overlay img
+    {
+        width: 70%;
+        height: 20%;
+    }
+   
+    .center-body-bennet
+    {   
+        font-size: .7em;
+        width: 95%;
+    }
+    
+    .center-body-cursive
+    {
+        font-size: 4em;
+        padding: 15% 0 0 0;
         
     }
 
