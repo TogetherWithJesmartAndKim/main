@@ -283,3 +283,57 @@
     }
 
 }
+
+
+/* Height */
+
+@media (max-height: 800px) {
+    
+    #picture_1_area
+    {
+        width: 90%;
+        height: 90%;
+        
+    }
+    #picture_2_area
+    {
+        width: 90%;
+        height: 90%
+
+    }
+
+}
+
+@media (max-height: 750px) {
+    
+    #picture_1_area
+    {
+        width: 80%;
+        height: 80%;
+        
+    }
+    #picture_2_area
+    {
+        width: 80%;
+        height: 80%;
+
+    }
+
+}
+
+@media (max-height: 750px) {
+    
+    #picture_1_area
+    {
+        width: 73%;
+        height: 73%;
+        
+    }
+    #picture_2_area
+    {
+        width: 73%;
+        height: 73%;
+
+    }
+
+}

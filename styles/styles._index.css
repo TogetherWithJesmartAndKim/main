@@ -400,6 +400,12 @@
 /* Height */
 
 @media (max-height: 670px) {
+    #center-body-overlay img
+    {
+        width: 70%;
+        height: 20%;
+    }
+   
     .center-body-bennet
     {   
         font-size: .8em;
@@ -411,5 +417,6 @@
         padding: 10% 0 0 0;
         
     }
+
 
 }
