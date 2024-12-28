@@ -80,18 +80,18 @@
 
 #center-body-image
 {
-    background-image: url("../images/dynamic_background/khian_1.jpg");
+    background-image: url("../images/dynamic_background/DON_2580.jpg");
+    background-position: 70%;
     background-repeat: no-repeat;
-    background-position: 40% 0%;
     background-size: cover;
-    height: 70%;
+    height: 75%;
     width: 50%;
     display: flex;
-    animation: change 10s 5s infinite ease-in-out;
+    animation: change 200s infinite ease-in-out;
 }
 #center-body-overlay
 {
-    background-color: hsla(284, 46%, 89%,0.55);
+    background-color: hsla(284, 46%, 89%,0.75);
     height: 100%;
     width: 100%;
     display: flex;
@@ -172,10 +172,10 @@
 .center-body-cursive
 {
     font-family: 'Carattere', cursive;
-    font-size: 8em;
+    font-size: 7.5em;
     text-align: center;
-    padding: 10% 0 3% 0;
-    width: 100%;
+    padding: 10% 5% 3% 5%;
+    width: 95%;
     color: #443f5a;
     
 }
@@ -183,12 +183,12 @@
 .center-body-time
 {
     font-size: 3.5em;
-    font-family:'Carattere', cursive;
+    font-family: "Sigmar One", serif; 
     text-align: center;
     border: #443f5a solid 4px;
     width: 14%;
     border-radius: 18px;
-    padding: 0% 1% 0 0;
+    padding: 0% 1% 2% 0;
 }
 .center-body-time-name
 {
@@ -241,22 +241,115 @@
 
 
 /* Animations */
-
-/* Body  */
 @keyframes change {
     0%
     {
-        background-image: url("../images/dynamic_background/khian_1.jpg");
+        background-image: url("../images/dynamic_background/DON_2580.jpg");
+        background-position: 70%;
+    }
+    5%
+    {
+        background-image: url("../images/dynamic_background/DON_2591.jpg");
+        background-position: 70%;
+    }
+    10%
+    {
+        background-image: url("../images/dynamic_background/DON_2632.jpg");
+        background-position: 80%;
+    }
+    15%
+    {
+        background-image: url("../images/dynamic_background/DON_2668.jpg");
+        background-position: 70%;
+    }
+    20%
+    {
+        background-image: url("../images/dynamic_background/DON_2679.jpg");
+        background-position: 70%;
+    }
+    25%
+    {
+        background-image: url("../images/dynamic_background/DON_2686.jpg");
+        background-position: 30%;
+    }
+    30%
+    {
+        background-image: url("../images/dynamic_background/DON_2837.jpg");
+        background-position: 70%;
+    }
+    35%
+    {
+        background-image: url("../images/dynamic_background/DON_2845.jpg");
+        background-position: 70%;
+    }
+    40%
+    {
+        background-image: url("../images/dynamic_background/DON_2916.jpg");
+        background-position: 70%;
+    }
+    45%
+    {
+        background-image: url("../images/dynamic_background/DON_2920.jpg");
+        background-position: 40%;
     }
     50%
     {
-        background-image: url("../images/dynamic_background/khian_2.jpg");
+        background-image: url("../images/dynamic_background/DON_2924.jpg");
+        background-position: 70%;
+    }
+    55%
+    {
+        background-image: url("../images/dynamic_background/DON_2937.jpg");
+        background-position: 50%;
+    }
+    60%
+    {
+        background-image: url("../images/dynamic_background/DON_2950.jpg");
+        background-position: 50%;
+    }
+    65%
+    {
+        background-image: url("../images/dynamic_background/DON_2957.jpg");
+        background-position: 40%;
+    }
+    70%
+    {
+        background-image: url("../images/dynamic_background/DON_2966.jpg");
+        background-position: 70%;
+    }
+    75%
+    {
+        background-image: url("../images/dynamic_background/DON_2984.jpg");
+        background-position: 50%;
+    }
+    80%
+    {
+        background-image: url("../images/dynamic_background/DON_2961.jpg");
+        background-position: 70%;
+    }
+    85%
+    {
+        background-image: url("../images/dynamic_background/DON_2666.jpg");
+        background-position: 70%;
+    }
+    90%
+    {
+        background-image: url("../images/dynamic_background/DON_2724.jpg");
+        background-position: 50%;
+    }
+    95%
+    {
+        background-image: url("../images/dynamic_background/DON_2734.jpg");
+        background-position: 50%;
     }
     100%
     {
-        background-image: url("../images/dynamic_background/khian_1.jpg");
+        background-image: url("../images/dynamic_background/DON_2580.jpg");
+        background-position: 70%;
     }
-}
+}	
+/* Body  */
+
 
 /* Responsiveness */
 
@@ -266,6 +359,12 @@
     /* Grouped Designs */
     
     /* Body */
+    #center-body-overlay img
+    {
+        width: 90%;
+        height: 30%;
+    }
+
     .center-body-bennet
     {   
         font-size: 1.4em;
@@ -273,13 +372,13 @@
     
     .center-body-cursive
     {
-        font-size: 6em;
+        font-size: 5.5em;
         
     }
     
     .center-body-time
     {
-        font-size: 3em;
+        font-size: 2em;
     }
     .center-body-time-name
     {
