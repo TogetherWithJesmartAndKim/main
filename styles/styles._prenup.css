@@ -4,21 +4,16 @@
     margin: 0;
     border: 0;
     padding: 0;
+    overflow: hidden;
 }
 
-
-body
-{
-    overflow-x: hidden;
-}
 
 /*structure of website*/
 #header 
 {
-    overflow: auto;
     background-color: #e9d6f0;
     height: 14vh;
-    width: 100vw;
+    width: 100dvw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,18 +22,14 @@ body
 #body
 {
     background-color: #e9d6f0;
-    width: 100vw;
-    height: 100dvh;  /* need change */
-    display: grid;
-    grid-template-rows: 40% 20% 40%;
-    grid-template-columns: 10% 80% 10%;
+    width: 100dvw;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-
-
-
-
-/* structure of the header */
+/* structure of header  */
 #header a 
 {
     font-size: 1.5em;
@@ -50,19 +41,47 @@ body
 
 /* structure of body */
 
-
-#center-body
+#body-content-layer
 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+}
 
-    grid-area: 1/2/span 3 / span 1;
-    justify-self: center;
-    align-self: flex-start;
+#center-body-image
+{
+    background-image: url("../images/dynamic_background/DON_2580.jpg");
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75%;
+    width: 50%;
+    display: flex;
+    animation: change 200s infinite linear;
+    backface-visibility: hidden;
+    transform: translate3d(0,0,0);
+}
+#center-body-overlay
+{
+    background-color: hsla(284, 46%, 89%,0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
 }
 
 
-
-
 /* Grouped Designs */
+
+/* Header */
 .logo_picture
 {
     height: 55px;
@@ -74,7 +93,7 @@ body
 .logo_size
 {
     height: 100%;
-    width: 100% ;
+    width: 100%;
     background-color: #443f5a;
     border-radius: 30px;
 }
@@ -86,16 +105,33 @@ body
 }
 
 
-.body-context-image
+
+
+/* Body */
+.center-body-bennet
 {
+    font-family: "Benne", serif;
+    font-size: 2em;
+    text-align: center;
     width: 100%;
-    justify-content: center;
-    align-items: flex-start;
+    color: #443f5a;
+}
+
+.center-body-cursive
+{
+    font-family: 'Carattere', cursive;
+    font-size: 3.5em;
+    text-align: center;
+    padding: 0% 0% 0% 0%;
+    width: 95%;
+    color: #443f5a;
+    
 }
 
 
-
 /* Actions */
+
+/* Header */
 .logo_structure:hover .logo_size
 {    
     height: 85%;
@@ -109,27 +145,249 @@ body
     font-size: 0.6em;
 }
 
+/* Body */
+.contained_buttons:hover
+{
+    background-color: #837ca3;
+    height: 60px;
+    font-size: 1.7em;
+}
 
 
-/* Actions */
 
-@media(max-width: 800px){
-    #body
+
+
+/* Animations */
+@keyframes change {
+    0%
     {
-        width: 100vw;
-    }    
-
-
-    #center-body
-    {
-        width: 100vw;
+        background-image: url("../images/dynamic_background/DON_2573.jpg");
+        background-position: 70%;
     }
-    .body-context-image
+    5%
     {
-        width: 100%;
+        background-image: url("../images/dynamic_background/DON_2776.jpg");
+        background-position: 70%;
     }
-} 
+    10%
+    {
+        background-image: url("../images/dynamic_background/DON_2632.jpg");
+        background-position: 80%;
+    }
+    15%
+    {
+        background-image: url("../images/dynamic_background/DON_2648.jpg");
+        background-position: 70%;
+    }
+    20%
+    {
+        background-image: url("../images/dynamic_background/DON_2695.jpg");
+        background-position: 40%;
+    }
+    25%
+    {
+        background-image: url("../images/dynamic_background/DON_2686.jpg");
+        background-position: 30%;
+    }
+    30%
+    {
+        background-image: url("../images/dynamic_background/DON_2837.jpg");
+        background-position: 70%;
+    }
+    35%
+    {
+        background-image: url("../images/dynamic_background/DON_2845.jpg");
+        background-position: 70%;
+    }
+    40%
+    {
+        background-image: url("../images/dynamic_background/DON_2916.jpg");
+        background-position: 70%;
+    }
+    45%
+    {
+        background-image: url("../images/dynamic_background/DON_2920.jpg");
+        background-position: 40%;
+    }
+    50%
+    {
+        background-image: url("../images/dynamic_background/DON_2924.jpg");
+        background-position: 70%;
+    }
+    55%
+    {
+        background-image: url("../images/dynamic_background/DON_2937.jpg");
+        background-position: 50%;
+    }
+    60%
+    {
+        background-image: url("../images/dynamic_background/DON_2950.jpg");
+        background-position: 50%;
+    }
+    65%
+    {
+        background-image: url("../images/dynamic_background/DON_2957.jpg");
+        background-position: 40%;
+    }
+    70%
+    {
+        background-image: url("../images/dynamic_background/DON_2985.jpg");
+        background-position: 50%;
+    }
+    75%
+    {
+        background-image: url("../images/dynamic_background/DON_2984.jpg");
+        background-position: 50%;
+    }
+    80%
+    {
+        background-image: url("../images/dynamic_background/DON_2873.jpg");
+        background-position: 70%;
+    }
+    85%
+    {
+        background-image: url("../images/dynamic_background/DON_2666.jpg");
+        background-position: 70%;
+    }
+    90%
+    {
+        background-image: url("../images/dynamic_background/DON_2724.jpg");
+        background-position: 50%;
+    }
+    95%
+    {
+        background-image: url("../images/dynamic_background/DON_2734.jpg");
+        background-position: 50%;
+    }
+    100%
+    {
+        background-image: url("../images/dynamic_background/DON_2573.jpg");
+        background-position: 70%;
+    }
+}	
+/* Body  */
 
- 
+
+/* Responsiveness */
+
+/* Width */
+@media (max-width: 1300px ) {
+
+    /* Grouped Designs */
+    
+    /* Body */
+    #center-body-overlay img
+    {
+        width: 90%;
+        height: 30%;
+    }
+
+    .center-body-bennet
+    {   
+        font-size: 1.4em;
+    }
+    
+    .center-body-cursive
+    {
+        font-size: 5.5em;
+        
+    }
+}
+
+@media (max-width: 850px) {
+    #body-content-layer
+    {
+        padding: 5% 0 10% 0;
+    }
+    #center-body-image
+    {
+        height: 70%;
+        width: 90%;
+    }
+
+    #center-body-overlay img
+    {
+        width: 90%;
+        height: 30%;
+    }
+
+    .center-body-bennet
+    {   
+        font-size: 1.2em;
+    }
+    
+    .center-body-cursive
+    {
+        font-size: 5.5em;
+        
+    }
+    
+}
 
 
+@media (max-width: 500px) {
+    #body-content-layer
+    {
+        padding: 0% 0 0% 0;
+    }
+
+    
+    .center-body-cursive
+    {
+        font-size: 4.5em;
+        padding: 0% 0% 0 0;
+        width: 90%;
+        
+    }
+
+}
+
+
+/* Height */
+
+@media (max-height: 670px) 
+{
+    #center-body-overlay img
+    {
+        width: 70%;
+        height: 20%;
+    }
+   
+    .center-body-bennet
+    {   
+        font-size: .8em;
+        width: 95%;
+        padding: 7% 0 0 0;
+    }
+    
+    .center-body-cursive
+    {
+        font-size: 4.5em;
+        padding: 0% 0 0% 0;
+        
+    }
+}
+
+@media (max-height: 670px) {
+    #center-body-overlay img
+    {
+        width: 70%;
+        height: 20%;
+    }
+   
+    .center-body-bennet
+    {   
+        font-size: .7em;
+        width: 95%;
+        padding: 7% 0 0 0;
+    }
+    
+    .center-body-cursive
+    {
+        font-size: 4em;
+        padding: 15% 0 0 0;
+        
+    }
+
+
+}

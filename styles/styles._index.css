@@ -87,7 +87,9 @@
     height: 75%;
     width: 50%;
     display: flex;
-    animation: change 200s infinite ease-in-out;
+    animation: change 200s infinite linear;
+    backface-visibility: hidden;
+    transform: translate3d(0,0,0);
 }
 #center-body-overlay
 {
@@ -244,12 +246,12 @@
 @keyframes change {
     0%
     {
-        background-image: url("../images/dynamic_background/DON_2580.jpg");
+        background-image: url("../images/dynamic_background/DON_2573.jpg");
         background-position: 70%;
     }
     5%
     {
-        background-image: url("../images/dynamic_background/DON_2591.jpg");
+        background-image: url("../images/dynamic_background/DON_2776.jpg");
         background-position: 70%;
     }
     10%
@@ -259,13 +261,13 @@
     }
     15%
     {
-        background-image: url("../images/dynamic_background/DON_2668.jpg");
+        background-image: url("../images/dynamic_background/DON_2648.jpg");
         background-position: 70%;
     }
     20%
     {
-        background-image: url("../images/dynamic_background/DON_2679.jpg");
-        background-position: 70%;
+        background-image: url("../images/dynamic_background/DON_2695.jpg");
+        background-position: 40%;
     }
     25%
     {
@@ -314,8 +316,8 @@
     }
     70%
     {
-        background-image: url("../images/dynamic_background/DON_2966.jpg");
-        background-position: 70%;
+        background-image: url("../images/dynamic_background/DON_2985.jpg");
+        background-position: 50%;
     }
     75%
     {
@@ -324,7 +326,7 @@
     }
     80%
     {
-        background-image: url("../images/dynamic_background/DON_2961.jpg");
+        background-image: url("../images/dynamic_background/DON_2873.jpg");
         background-position: 70%;
     }
     85%
@@ -344,7 +346,7 @@
     }
     100%
     {
-        background-image: url("../images/dynamic_background/DON_2580.jpg");
+        background-image: url("../images/dynamic_background/DON_2573.jpg");
         background-position: 70%;
     }
 }	
