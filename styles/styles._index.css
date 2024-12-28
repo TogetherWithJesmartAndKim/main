@@ -87,8 +87,7 @@
     height: 75%;
     width: 50%;
     display: flex;
-    animation: change 200s infinite linear;
-    backface-visibility: hidden;
+    animation: 350s change ease-in-out 0s infinite;
     transform: translate3d(0,0,0);
 }
 #center-body-overlay
@@ -252,7 +251,7 @@
     5%
     {
         background-image: url("../images/dynamic_background/DON_2776.jpg");
-        background-position: 40%;
+        background-position: 20%;
     }
     10%
     {
