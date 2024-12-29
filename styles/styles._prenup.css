@@ -62,7 +62,10 @@
     height: 75%;
     width: 50%;
     display: flex;
-    animation: 100s change ease-out 0s infinite;
+    -webkit-animation: 500s change linear 0s infinite;
+    -moz-animation: 500s change linear 0s infinite;
+    -o-animation: 500s change linear 0s infinite;
+    animation: 500s change linear 0s infinite;
     transform: translate3d(0,0,0);
 }
 #center-body-overlay
@@ -123,6 +126,7 @@
     text-align: center;
     padding: 0% 0% 0% 0%;
     width: 95%;
+    height: 10%;
     color: #443f5a;
     
 }
@@ -164,129 +168,433 @@
     {
         background-image: url("../images/dynamic_background/DON_2573.jpg");
         background-position: 70%;
-        animation-delay: 20s;
     }
     5%
     {
         background-image: url("../images/dynamic_background/DON_2776.jpg");
         background-position: 20%;
-        animation-delay: 20s;
     }
     10%
     {
         background-image: url("../images/dynamic_background/DON_2632.jpg");
         background-position: 80%;
-        animation-delay: 20s;
     }
     15%
     {
         background-image: url("../images/dynamic_background/DON_2648.jpg");
         background-position: 70%;
-        animation-delay: 20s;
     }
     20%
     {
         background-image: url("../images/dynamic_background/DON_2695.jpg");
         background-position: 40%;
-        animation-delay: 20s;
     }
     25%
     {
         background-image: url("../images/dynamic_background/DON_2686.jpg");
         background-position: 30%;
-        animation-delay: 20s;
     }
     30%
     {
         background-image: url("../images/dynamic_background/DON_2837.jpg");
         background-position: 70%;
-        animation-delay: 20s;
     }
     35%
     {
         background-image: url("../images/dynamic_background/DON_2845.jpg");
         background-position: 70%;
-        animation-delay: 20s;
     }
     40%
     {
         background-image: url("../images/dynamic_background/DON_2916.jpg");
         background-position: 70%;
-        animation-delay: 20s;
     }
     45%
     {
         background-image: url("../images/dynamic_background/DON_2920.jpg");
         background-position: 40%;
-        animation-delay: 20s;
     }
     50%
     {
         background-image: url("../images/dynamic_background/DON_2924.jpg");
         background-position: 70%;
-        animation-delay: 20s;
     }
     55%
     {
         background-image: url("../images/dynamic_background/DON_2937.jpg");
         background-position: 50%;
-        animation-delay: 20s;
     }
     60%
     {
         background-image: url("../images/dynamic_background/DON_2950.jpg");
         background-position: 50%;
-        animation-delay: 20s;
     }
     65%
     {
         background-image: url("../images/dynamic_background/DON_2957.jpg");
         background-position: 40%;
-        animation-delay: 20s;
     }
     70%
     {
         background-image: url("../images/dynamic_background/DON_2985.jpg");
         background-position: 50%;
-        animation-delay: 20s;
     }
     75%
     {
         background-image: url("../images/dynamic_background/DON_2984.jpg");
         background-position: 50%;
-        animation-delay: 20s;
     }
     80%
     {
         background-image: url("../images/dynamic_background/DON_2873.jpg");
         background-position: 70%;
-        animation-delay: 20s;
     }
     85%
     {
         background-image: url("../images/dynamic_background/DON_2666.jpg");
         background-position: 70%;
-        animation-delay: 20s;
     }
     90%
     {
         background-image: url("../images/dynamic_background/DON_2724.jpg");
         background-position: 50%;
-        animation-delay: 20s;
     }
     95%
     {
         background-image: url("../images/dynamic_background/DON_2734.jpg");
         background-position: 50%;
-        animation-delay: 20s;
     }
     100%
     {
         background-image: url("../images/dynamic_background/DON_2573.jpg");
         background-position: 70%;
-        animation-delay: 20s;
     }
 }	
+/*  Website compatibility */
+@-o-keyframes change
+    {
+        0%
+        {
+            background-image: url("../images/dynamic_background/DON_2573.jpg");
+            background-position: 70%;
+        }
+        5%
+        {
+            background-image: url("../images/dynamic_background/DON_2776.jpg");
+            background-position: 20%;
+        }
+        10%
+        {
+            background-image: url("../images/dynamic_background/DON_2632.jpg");
+            background-position: 80%;
+        }
+        15%
+        {
+            background-image: url("../images/dynamic_background/DON_2648.jpg");
+            background-position: 70%;
+        }
+        20%
+        {
+            background-image: url("../images/dynamic_background/DON_2695.jpg");
+            background-position: 40%;
+        }
+        25%
+        {
+            background-image: url("../images/dynamic_background/DON_2686.jpg");
+            background-position: 30%;
+        }
+        30%
+        {
+            background-image: url("../images/dynamic_background/DON_2837.jpg");
+            background-position: 70%;
+        }
+        35%
+        {
+            background-image: url("../images/dynamic_background/DON_2845.jpg");
+            background-position: 70%;
+        }
+        40%
+        {
+            background-image: url("../images/dynamic_background/DON_2916.jpg");
+            background-position: 70%;
+        }
+        45%
+        {
+            background-image: url("../images/dynamic_background/DON_2920.jpg");
+            background-position: 40%;
+        }
+        50%
+        {
+            background-image: url("../images/dynamic_background/DON_2924.jpg");
+            background-position: 70%;
+        }
+        55%
+        {
+            background-image: url("../images/dynamic_background/DON_2937.jpg");
+            background-position: 50%;
+        }
+        60%
+        {
+            background-image: url("../images/dynamic_background/DON_2950.jpg");
+            background-position: 50%;
+        }
+        65%
+        {
+            background-image: url("../images/dynamic_background/DON_2957.jpg");
+            background-position: 40%;
+        }
+        70%
+        {
+            background-image: url("../images/dynamic_background/DON_2985.jpg");
+            background-position: 50%;
+        }
+        75%
+        {
+            background-image: url("../images/dynamic_background/DON_2984.jpg");
+            background-position: 50%;
+        }
+        80%
+        {
+            background-image: url("../images/dynamic_background/DON_2873.jpg");
+            background-position: 70%;
+        }
+        85%
+        {
+            background-image: url("../images/dynamic_background/DON_2666.jpg");
+            background-position: 70%;
+        }
+        90%
+        {
+            background-image: url("../images/dynamic_background/DON_2724.jpg");
+            background-position: 50%;
+        }
+        95%
+        {
+            background-image: url("../images/dynamic_background/DON_2734.jpg");
+            background-position: 50%;
+        }
+        100%
+        {
+            background-image: url("../images/dynamic_background/DON_2573.jpg");
+            background-position: 70%;
+        }
+    }
+@-moz-keyframes change
+    {
+        0%
+        {
+            background-image: url("../images/dynamic_background/DON_2573.jpg");
+            background-position: 70%;
+        }
+        5%
+        {
+            background-image: url("../images/dynamic_background/DON_2776.jpg");
+            background-position: 20%;
+        }
+        10%
+        {
+            background-image: url("../images/dynamic_background/DON_2632.jpg");
+            background-position: 80%;
+        }
+        15%
+        {
+            background-image: url("../images/dynamic_background/DON_2648.jpg");
+            background-position: 70%;
+        }
+        20%
+        {
+            background-image: url("../images/dynamic_background/DON_2695.jpg");
+            background-position: 40%;
+        }
+        25%
+        {
+            background-image: url("../images/dynamic_background/DON_2686.jpg");
+            background-position: 30%;
+        }
+        30%
+        {
+            background-image: url("../images/dynamic_background/DON_2837.jpg");
+            background-position: 70%;
+        }
+        35%
+        {
+            background-image: url("../images/dynamic_background/DON_2845.jpg");
+            background-position: 70%;
+        }
+        40%
+        {
+            background-image: url("../images/dynamic_background/DON_2916.jpg");
+            background-position: 70%;
+        }
+        45%
+        {
+            background-image: url("../images/dynamic_background/DON_2920.jpg");
+            background-position: 40%;
+        }
+        50%
+        {
+            background-image: url("../images/dynamic_background/DON_2924.jpg");
+            background-position: 70%;
+        }
+        55%
+        {
+            background-image: url("../images/dynamic_background/DON_2937.jpg");
+            background-position: 50%;
+        }
+        60%
+        {
+            background-image: url("../images/dynamic_background/DON_2950.jpg");
+            background-position: 50%;
+        }
+        65%
+        {
+            background-image: url("../images/dynamic_background/DON_2957.jpg");
+            background-position: 40%;
+        }
+        70%
+        {
+            background-image: url("../images/dynamic_background/DON_2985.jpg");
+            background-position: 50%;
+        }
+        75%
+        {
+            background-image: url("../images/dynamic_background/DON_2984.jpg");
+            background-position: 50%;
+        }
+        80%
+        {
+            background-image: url("../images/dynamic_background/DON_2873.jpg");
+            background-position: 70%;
+        }
+        85%
+        {
+            background-image: url("../images/dynamic_background/DON_2666.jpg");
+            background-position: 70%;
+        }
+        90%
+        {
+            background-image: url("../images/dynamic_background/DON_2724.jpg");
+            background-position: 50%;
+        }
+        95%
+        {
+            background-image: url("../images/dynamic_background/DON_2734.jpg");
+            background-position: 50%;
+        }
+        100%
+        {
+            background-image: url("../images/dynamic_background/DON_2573.jpg");
+            background-position: 70%;
+        }
+    }
+@-webkit-keyframes change
+    {
+        0%
+        {
+            background-image: url("../images/dynamic_background/DON_2573.jpg");
+            background-position: 70%;
+        }
+        5%
+        {
+            background-image: url("../images/dynamic_background/DON_2776.jpg");
+            background-position: 20%;
+        }
+        10%
+        {
+            background-image: url("../images/dynamic_background/DON_2632.jpg");
+            background-position: 80%;
+        }
+        15%
+        {
+            background-image: url("../images/dynamic_background/DON_2648.jpg");
+            background-position: 70%;
+        }
+        20%
+        {
+            background-image: url("../images/dynamic_background/DON_2695.jpg");
+            background-position: 40%;
+        }
+        25%
+        {
+            background-image: url("../images/dynamic_background/DON_2686.jpg");
+            background-position: 30%;
+        }
+        30%
+        {
+            background-image: url("../images/dynamic_background/DON_2837.jpg");
+            background-position: 70%;
+        }
+        35%
+        {
+            background-image: url("../images/dynamic_background/DON_2845.jpg");
+            background-position: 70%;
+        }
+        40%
+        {
+            background-image: url("../images/dynamic_background/DON_2916.jpg");
+            background-position: 70%;
+        }
+        45%
+        {
+            background-image: url("../images/dynamic_background/DON_2920.jpg");
+            background-position: 40%;
+        }
+        50%
+        {
+            background-image: url("../images/dynamic_background/DON_2924.jpg");
+            background-position: 70%;
+        }
+        55%
+        {
+            background-image: url("../images/dynamic_background/DON_2937.jpg");
+            background-position: 50%;
+        }
+        60%
+        {
+            background-image: url("../images/dynamic_background/DON_2950.jpg");
+            background-position: 50%;
+        }
+        65%
+        {
+            background-image: url("../images/dynamic_background/DON_2957.jpg");
+            background-position: 40%;
+        }
+        70%
+        {
+            background-image: url("../images/dynamic_background/DON_2985.jpg");
+            background-position: 50%;
+        }
+        75%
+        {
+            background-image: url("../images/dynamic_background/DON_2984.jpg");
+            background-position: 50%;
+        }
+        80%
+        {
+            background-image: url("../images/dynamic_background/DON_2873.jpg");
+            background-position: 70%;
+        }
+        85%
+        {
+            background-image: url("../images/dynamic_background/DON_2666.jpg");
+            background-position: 70%;
+        }
+        90%
+        {
+            background-image: url("../images/dynamic_background/DON_2724.jpg");
+            background-position: 50%;
+        }
+        95%
+        {
+            background-image: url("../images/dynamic_background/DON_2734.jpg");
+            background-position: 50%;
+        }
+        100%
+        {
+            background-image: url("../images/dynamic_background/DON_2573.jpg");
+            background-position: 70%;
+        }
+    }
 /* Body  */
 
 
@@ -375,12 +683,6 @@
         height: 20%;
     }
    
-    .center-body-bennet
-    {   
-        font-size: .8em;
-        width: 95%;
-        padding: 7% 0 0 0;
-    }
     
     .center-body-cursive
     {
@@ -396,18 +698,11 @@
         width: 70%;
         height: 20%;
     }
-   
-    .center-body-bennet
-    {   
-        font-size: .7em;
-        width: 95%;
-        padding: 7% 0 0 0;
-    }
-    
+ 
     .center-body-cursive
     {
         font-size: 4em;
-        padding: 15% 0 0 0;
+        padding: 0% 0 0 0;
         
     }
 
