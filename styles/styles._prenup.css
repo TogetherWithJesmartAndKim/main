@@ -62,7 +62,7 @@
     height: 75%;
     width: 50%;
     display: flex;
-    animation: 350s change ease-in-out 0s infinite;
+    animation: 100s change ease-out 0s infinite;
     transform: translate3d(0,0,0);
 }
 #center-body-overlay
@@ -157,111 +157,134 @@
 
 
 /* Animations */
+
+/* Animations */
 @keyframes change {
     0%
     {
         background-image: url("../images/dynamic_background/DON_2573.jpg");
         background-position: 70%;
+        animation-delay: 20s;
     }
     5%
     {
         background-image: url("../images/dynamic_background/DON_2776.jpg");
-        background-position: 40%;
+        background-position: 20%;
+        animation-delay: 20s;
     }
     10%
     {
         background-image: url("../images/dynamic_background/DON_2632.jpg");
         background-position: 80%;
+        animation-delay: 20s;
     }
     15%
     {
         background-image: url("../images/dynamic_background/DON_2648.jpg");
         background-position: 70%;
+        animation-delay: 20s;
     }
     20%
     {
         background-image: url("../images/dynamic_background/DON_2695.jpg");
         background-position: 40%;
+        animation-delay: 20s;
     }
     25%
     {
         background-image: url("../images/dynamic_background/DON_2686.jpg");
         background-position: 30%;
+        animation-delay: 20s;
     }
     30%
     {
         background-image: url("../images/dynamic_background/DON_2837.jpg");
         background-position: 70%;
+        animation-delay: 20s;
     }
     35%
     {
         background-image: url("../images/dynamic_background/DON_2845.jpg");
         background-position: 70%;
+        animation-delay: 20s;
     }
     40%
     {
         background-image: url("../images/dynamic_background/DON_2916.jpg");
         background-position: 70%;
+        animation-delay: 20s;
     }
     45%
     {
         background-image: url("../images/dynamic_background/DON_2920.jpg");
         background-position: 40%;
+        animation-delay: 20s;
     }
     50%
     {
         background-image: url("../images/dynamic_background/DON_2924.jpg");
         background-position: 70%;
+        animation-delay: 20s;
     }
     55%
     {
         background-image: url("../images/dynamic_background/DON_2937.jpg");
         background-position: 50%;
+        animation-delay: 20s;
     }
     60%
     {
         background-image: url("../images/dynamic_background/DON_2950.jpg");
         background-position: 50%;
+        animation-delay: 20s;
     }
     65%
     {
         background-image: url("../images/dynamic_background/DON_2957.jpg");
         background-position: 40%;
+        animation-delay: 20s;
     }
     70%
     {
         background-image: url("../images/dynamic_background/DON_2985.jpg");
         background-position: 50%;
+        animation-delay: 20s;
     }
     75%
     {
         background-image: url("../images/dynamic_background/DON_2984.jpg");
         background-position: 50%;
+        animation-delay: 20s;
     }
     80%
     {
         background-image: url("../images/dynamic_background/DON_2873.jpg");
         background-position: 70%;
+        animation-delay: 20s;
     }
     85%
     {
         background-image: url("../images/dynamic_background/DON_2666.jpg");
         background-position: 70%;
+        animation-delay: 20s;
     }
     90%
     {
         background-image: url("../images/dynamic_background/DON_2724.jpg");
         background-position: 50%;
+        animation-delay: 20s;
     }
     95%
     {
         background-image: url("../images/dynamic_background/DON_2734.jpg");
         background-position: 50%;
+        animation-delay: 20s;
     }
     100%
     {
         background-image: url("../images/dynamic_background/DON_2573.jpg");
         background-position: 70%;
+        animation-delay: 20s;
     }
 }	
 /* Body  */
