@@ -851,11 +851,11 @@
     }
 }
 
-@media (max-height: 560px) {
+@media (max-height: 620px) {
     #center-body-image
     {
         height: 65%;
-        width: 80mo%;
+        width: 80%;
     }
 
     #center-body-overlay img
