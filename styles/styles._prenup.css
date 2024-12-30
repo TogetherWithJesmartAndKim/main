@@ -62,10 +62,10 @@
     height: 75%;
     width: 50%;
     display: flex;
-    -webkit-animation: 00s change linear 0s infinite;
-    -moz-animation: 00s change linear 0s infinite;
-    -o-animation: 00s change linear 0s infinite;
-    animation: 00s change linear 0s infinite;
+    -webkit-animation: 500s change linear 0s infinite;
+    -moz-animation: 500s change linear 0s infinite;
+    -o-animation: 500s change linear 0s infinite;
+    animation: 500s change linear 0s infinite;
     transform: translate3d(0,0,0);
 }
 #center-body-overlay
@@ -172,7 +172,7 @@
     5%
     {
         background-image: url("../images/dynamic_background/DON_2776.jpg");
-        background-position: 20%;
+        background-position: 40%;
     }
     10%
     {
@@ -192,7 +192,7 @@
     25%
     {
         background-image: url("../images/dynamic_background/DON_2686.jpg");
-        background-position: 30%;
+        background-position: 40%;
     }
     30%
     {
@@ -281,7 +281,7 @@
         5%
         {
             background-image: url("../images/dynamic_background/DON_2776.jpg");
-            background-position: 20%;
+            background-position: 40%;
         }
         10%
         {
@@ -301,7 +301,7 @@
         25%
         {
             background-image: url("../images/dynamic_background/DON_2686.jpg");
-            background-position: 30%;
+            background-position: 40%;
         }
         30%
         {
@@ -389,7 +389,7 @@
         5%
         {
             background-image: url("../images/dynamic_background/DON_2776.jpg");
-            background-position: 20%;
+            background-position: 40%;
         }
         10%
         {
@@ -409,7 +409,7 @@
         25%
         {
             background-image: url("../images/dynamic_background/DON_2686.jpg");
-            background-position: 30%;
+            background-position: 40%;
         }
         30%
         {
@@ -497,7 +497,7 @@
         5%
         {
             background-image: url("../images/dynamic_background/DON_2776.jpg");
-            background-position: 20%;
+            background-position: 40%;
         }
         10%
         {

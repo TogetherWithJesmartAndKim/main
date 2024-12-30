@@ -254,7 +254,7 @@
     5%
     {
         background-image: url("../images/dynamic_background/DON_2776.jpg");
-        background-position: 20%;
+        background-position: 40%;
     }
     10%
     {
@@ -274,7 +274,7 @@
     25%
     {
         background-image: url("../images/dynamic_background/DON_2686.jpg");
-        background-position: 30%;
+        background-position: 40%;
     }
     30%
     {
@@ -363,7 +363,7 @@
         5%
         {
             background-image: url("../images/dynamic_background/DON_2776.jpg");
-            background-position: 20%;
+            background-position: 40%;
         }
         10%
         {
@@ -383,7 +383,7 @@
         25%
         {
             background-image: url("../images/dynamic_background/DON_2686.jpg");
-            background-position: 30%;
+            background-position: 40%;
         }
         30%
         {
@@ -471,7 +471,7 @@
         5%
         {
             background-image: url("../images/dynamic_background/DON_2776.jpg");
-            background-position: 20%;
+            background-position: 40%;
         }
         10%
         {
@@ -491,7 +491,7 @@
         25%
         {
             background-image: url("../images/dynamic_background/DON_2686.jpg");
-            background-position: 30%;
+            background-position: 40%;
         }
         30%
         {
@@ -579,7 +579,7 @@
         5%
         {
             background-image: url("../images/dynamic_background/DON_2776.jpg");
-            background-position: 20%;
+            background-position: 40%;
         }
         10%
         {
@@ -691,9 +691,7 @@
     #center-body-overlay img
     {
         width: 90%;
-        height: 30%;
     }
-
     .center-body-bennet
     {   
         font-size: 1.4em;
@@ -726,11 +724,6 @@
         width: 90%;
     }
 
-    #center-body-overlay img
-    {
-        width: 90%;
-        height: 30%;
-    }
     #body-top-design-left
     {
         width: 70%;
@@ -777,7 +770,13 @@
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 500px) 
+{
+    #center-body-overlay img
+    {
+        height: 40%;
+        width: 90%;
+    }
     #body-top-design-left
     {
         width: 80%;
@@ -800,19 +799,13 @@
     {
         width: 60%;
     }
-    .center-body-bennet
-    {   
-        font-size: .8em;
-        width: 90%;
-        padding: 7% 0 0 0;
-    }
+    
     
     .center-body-cursive
     {
-        font-size: 4.5em;
+        font-size: 4em;
         padding: 15% 5% 0 0;
         width: 90%;
-        
     }
     
     .center-body-time
@@ -832,8 +825,7 @@
 {
     #center-body-overlay img
     {
-        width: 70%;
-        height: 20%;
+        height: 50%;
     }
    
     .center-body-bennet
@@ -842,26 +834,18 @@
         width: 95%;
         padding: 7% 0 0 0;
     }
-    
-    .center-body-cursive
-    {
-        font-size: 4.5em;
-        padding: 10% 0 0 0;
-        
-    }
 }
 
 @media (max-height: 620px) {
     #center-body-image
     {
         height: 65%;
-        width: 80%;
     }
 
     #center-body-overlay img
     {
-        width: 70%;
-        height: 35%;
+        width: 80%;
+        height: 45%;
     }
     
     .center-body-cursive
