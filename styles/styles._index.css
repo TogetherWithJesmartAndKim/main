@@ -176,10 +176,10 @@
 .center-body-cursive
 {
     font-family: 'Carattere', cursive;
-    font-size: 7.5em;
+    font-size: 5em;
     text-align: center;
-    padding: 10% 5% 3% 5%;
-    width: 95%;
+    padding: 10% 0% 0% 0%;
+    width: 90%;
     color: #443f5a;
     
 }
@@ -192,7 +192,7 @@
     border: #443f5a solid 4px;
     width: 14%;
     border-radius: 18px;
-    padding: 0% 1% 2% 0;
+    padding: 0% 0% 0% 0;
 }
 .center-body-time-name
 {
@@ -258,7 +258,7 @@
     }
     10%
     {
-        background-image: url("../images/dynamic_background/DON_2632.jpg");
+        background-image: url("../images/dynamic_background/DON_2647.jpg");
         background-position: 80%;
     }
     15%
@@ -273,7 +273,7 @@
     }
     25%
     {
-        background-image: url("../images/dynamic_background/DON_2686.jpg");
+        background-image: url("../images/dynamic_background/DON_2684.jpg");
         background-position: 40%;
     }
     30%
@@ -288,7 +288,7 @@
     }
     40%
     {
-        background-image: url("../images/dynamic_background/DON_2916.jpg");
+        background-image: url("../images/dynamic_background/DON_2911.jpg");
         background-position: 70%;
     }
     45%
@@ -367,7 +367,7 @@
         }
         10%
         {
-            background-image: url("../images/dynamic_background/DON_2632.jpg");
+            background-image: url("../images/dynamic_background/DON_2647.jpg");
             background-position: 80%;
         }
         15%
@@ -382,7 +382,7 @@
         }
         25%
         {
-            background-image: url("../images/dynamic_background/DON_2686.jpg");
+            background-image: url("../images/dynamic_background/DON_2684.jpg");
             background-position: 40%;
         }
         30%
@@ -397,7 +397,7 @@
         }
         40%
         {
-            background-image: url("../images/dynamic_background/DON_2916.jpg");
+            background-image: url("../images/dynamic_background/DON_2911.jpg");
             background-position: 70%;
         }
         45%
@@ -475,7 +475,7 @@
         }
         10%
         {
-            background-image: url("../images/dynamic_background/DON_2632.jpg");
+            background-image: url("../images/dynamic_background/DON_2647.jpg");
             background-position: 80%;
         }
         15%
@@ -490,7 +490,7 @@
         }
         25%
         {
-            background-image: url("../images/dynamic_background/DON_2686.jpg");
+            background-image: url("../images/dynamic_background/DON_2684.jpg");
             background-position: 40%;
         }
         30%
@@ -505,7 +505,7 @@
         }
         40%
         {
-            background-image: url("../images/dynamic_background/DON_2916.jpg");
+            background-image: url("../images/dynamic_background/DON_2911.jpg");
             background-position: 70%;
         }
         45%
@@ -583,7 +583,7 @@
         }
         10%
         {
-            background-image: url("../images/dynamic_background/DON_2632.jpg");
+            background-image: url("../images/dynamic_background/DON_2647.jpg");
             background-position: 80%;
         }
         15%
@@ -598,7 +598,7 @@
         }
         25%
         {
-            background-image: url("../images/dynamic_background/DON_2686.jpg");
+            background-image: url("../images/dynamic_background/DON_2684.jpg");
             background-position: 30%;
         }
         30%
@@ -613,7 +613,7 @@
         }
         40%
         {
-            background-image: url("../images/dynamic_background/DON_2916.jpg");
+            background-image: url("../images/dynamic_background/DON_2911.jpg");
             background-position: 70%;
         }
         45%
@@ -697,11 +697,6 @@
         font-size: 1.4em;
     }
     
-    .center-body-cursive
-    {
-        font-size: 5.5em;
-        
-    }
     
     .center-body-time
     {
@@ -754,7 +749,7 @@
     
     .center-body-cursive
     {
-        font-size: 5.5em;
+        font-size: 5em;
         
     }
     
@@ -774,7 +769,7 @@
 {
     #center-body-overlay img
     {
-        height: 40%;
+        height: 35%;
         width: 90%;
     }
     #body-top-design-left
@@ -804,8 +799,8 @@
     .center-body-cursive
     {
         font-size: 4em;
-        padding: 15% 5% 0 0;
-        width: 90%;
+        padding: 10% 0% 0% 0;
+        width: 70%;
     }
     
     .center-body-time
@@ -844,7 +839,6 @@
 
     #center-body-overlay img
     {
-        width: 80%;
         height: 45%;
     }
     
