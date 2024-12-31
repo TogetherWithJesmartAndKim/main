@@ -117,7 +117,9 @@
 {
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
     width: 70%;
+    height: 30%;
 }
 #center-body-stopwatch-text
 {
@@ -176,7 +178,7 @@
 .center-body-cursive
 {
     font-family: 'Carattere', cursive;
-    font-size: 5em;
+    font-size: 6em;
     text-align: center;
     padding: 10% 0% 0% 0%;
     width: 90%;
@@ -186,11 +188,11 @@
 
 .center-body-time
 {
-    font-size: 3.5em;
+    font-size: 4em;
     font-family: "Sigmar One", serif; 
     text-align: center;
     border: #443f5a solid 4px;
-    width: 14%;
+    width: 20%;
     border-radius: 18px;
     padding: 0% 0% 0% 0;
 }
@@ -683,30 +685,31 @@
 /* Responsiveness */
 
 /* Width */
-@media (max-width: 1300px ) {
+@media (max-width: 1024px) {
 
-    /* Grouped Designs */
-    
-    /* Body */
-    #center-body-overlay img
+    .center-body-cursive
     {
-        width: 90%;
+        font-size: 5em;
+
+        
     }
-    .center-body-bennet
-    {   
-        font-size: 1.4em;
-    }
-    
     
     .center-body-time
     {
-        font-size: 2em;
+        font-size: 4em;
+
+        padding: 0% 0% 0% 0;
     }
     .center-body-time-name
     {
-        font-size: 1.7em;
-    }    
+        font-size: 2em;
+
+    
+    }
+    
+
 }
+
 
 @media (max-width: 850px) {
     #body-content-layer
@@ -736,6 +739,16 @@
         width: 70%;
         height: 70%;   
     }
+    #center-body-stopwatch
+    {
+        width: 90%;
+        height: 20%;
+    }
+    #center-body-stopwatch-text
+    {
+    
+        width: 90%;
+    }
     
     #center-body-buttons
     {
@@ -755,11 +768,12 @@
     
     .center-body-time
     {
-        font-size: 2.5em;
+        font-size: 3.5em;
     }
     .center-body-time-name
     {
-        font-size: 1.2em;
+        font-size: 2em;
+        padding: 0 0 2% 0;
     }    
     
 }
@@ -769,7 +783,7 @@
 {
     #center-body-overlay img
     {
-        height: 35%;
+        height: 30%;
         width: 90%;
     }
     #body-top-design-left
@@ -789,7 +803,7 @@
         width: 80%;
         height: 80%;   
     }
-    
+
     #center-body-buttons
     {
         width: 60%;
@@ -805,7 +819,7 @@
     
     .center-body-time
     {
-        font-size: 2em;
+        font-size: 3em;
     }
     .center-body-time-name
     {
@@ -818,11 +832,6 @@
 
 @media (max-height: 670px) 
 {
-    #center-body-overlay img
-    {
-        height: 50%;
-    }
-   
     .center-body-bennet
     {   
         font-size: .8em;
