@@ -253,29 +253,14 @@
         background-image: url("../images/dynamic_background/DON_2573.webp");
         background-position: 70%;
     }
-    5%
-    {
-        background-image: url("../images/dynamic_background/DON_2776.webp");
-        background-position: 40%;
-    }
     10%
     {
         background-image: url("../images/dynamic_background/DON_2647.webp");
         background-position: 80%;
     }
-    15%
-    {
-        background-image: url("../images/dynamic_background/DON_2648.webp");
-        background-position: 70%;
-    }
     20%
     {
         background-image: url("../images/dynamic_background/DON_2695.webp");
-        background-position: 40%;
-    }
-    25%
-    {
-        background-image: url("../images/dynamic_background/DON_2684.webp");
         background-position: 40%;
     }
     30%
@@ -283,47 +268,22 @@
         background-image: url("../images/dynamic_background/DON_2837.webp");
         background-position: 70%;
     }
-    35%
-    {
-        background-image: url("../images/dynamic_background/DON_2845.webp");
-        background-position: 70%;
-    }
     40%
     {
         background-image: url("../images/dynamic_background/DON_2911.webp");
         background-position: 70%;
     }
-    45%
+    50%
     {
         background-image: url("../images/dynamic_background/DON_2920.webp");
         background-position: 40%;
     }
-    50%
-    {
-        background-image: url("../images/dynamic_background/DON_2924.webp");
-        background-position: 70%;
-    }
-    55%
+    60%
     {
         background-image: url("../images/dynamic_background/DON_2937.webp");
         background-position: 50%;
     }
-    60%
-    {
-        background-image: url("../images/dynamic_background/DON_2950.webp");
-        background-position: 50%;
-    }
-    65%
-    {
-        background-image: url("../images/dynamic_background/DON_2957.webp");
-        background-position: 40%;
-    }
     70%
-    {
-        background-image: url("../images/dynamic_background/DON_2985.webp");
-        background-position: 50%;
-    }
-    75%
     {
         background-image: url("../images/dynamic_background/DON_2984.webp");
         background-position: 50%;
@@ -333,19 +293,9 @@
         background-image: url("../images/dynamic_background/DON_2873.webp");
         background-position: 70%;
     }
-    85%
-    {
-        background-image: url("../images/dynamic_background/DON_2666.webp");
-        background-position: 70%;
-    }
     90%
     {
         background-image: url("../images/dynamic_background/DON_2724.webp");
-        background-position: 50%;
-    }
-    95%
-    {
-        background-image: url("../images/dynamic_background/DON_2734.webp");
         background-position: 50%;
     }
     100%
@@ -357,328 +307,178 @@
 /*  Website compatibility */
 @-o-keyframes change
     {
-        0%
-        {
-            background-image: url("../images/dynamic_background/DON_2573.webp");
-            background-position: 70%;
-        }
-        5%
-        {
-            background-image: url("../images/dynamic_background/DON_2776.webp");
-            background-position: 40%;
-        }
-        10%
-        {
-            background-image: url("../images/dynamic_background/DON_2647.webp");
-            background-position: 80%;
-        }
-        15%
-        {
-            background-image: url("../images/dynamic_background/DON_2648.webp");
-            background-position: 70%;
-        }
-        20%
-        {
-            background-image: url("../images/dynamic_background/DON_2695.webp");
-            background-position: 40%;
-        }
-        25%
-        {
-            background-image: url("../images/dynamic_background/DON_2684.webp");
-            background-position: 40%;
-        }
-        30%
-        {
-            background-image: url("../images/dynamic_background/DON_2837.webp");
-            background-position: 70%;
-        }
-        35%
-        {
-            background-image: url("../images/dynamic_background/DON_2845.webp");
-            background-position: 70%;
-        }
-        40%
-        {
-            background-image: url("../images/dynamic_background/DON_2911.webp");
-            background-position: 70%;
-        }
-        45%
-        {
-            background-image: url("../images/dynamic_background/DON_2920.webp");
-            background-position: 40%;
-        }
-        50%
-        {
-            background-image: url("../images/dynamic_background/DON_2924.webp");
-            background-position: 70%;
-        }
-        55%
-        {
-            background-image: url("../images/dynamic_background/DON_2937.webp");
-            background-position: 50%;
-        }
-        60%
-        {
-            background-image: url("../images/dynamic_background/DON_2950.webp");
-            background-position: 50%;
-        }
-        65%
-        {
-            background-image: url("../images/dynamic_background/DON_2957.webp");
-            background-position: 40%;
-        }
-        70%
-        {
-            background-image: url("../images/dynamic_background/DON_2985.webp");
-            background-position: 50%;
-        }
-        75%
-        {
-            background-image: url("../images/dynamic_background/DON_2984.webp");
-            background-position: 50%;
-        }
-        80%
-        {
-            background-image: url("../images/dynamic_background/DON_2873.webp");
-            background-position: 70%;
-        }
-        85%
-        {
-            background-image: url("../images/dynamic_background/DON_2666.webp");
-            background-position: 70%;
-        }
-        90%
-        {
-            background-image: url("../images/dynamic_background/DON_2724.webp");
-            background-position: 50%;
-        }
-        95%
-        {
-            background-image: url("../images/dynamic_background/DON_2734.webp");
-            background-position: 50%;
-        }
-        100%
-        {
-            background-image: url("../images/dynamic_background/DON_2573.webp");
-            background-position: 70%;
-        }
+    0%
+    {
+        background-image: url("../images/dynamic_background/DON_2573.webp");
+        background-position: 70%;
+    }
+    10%
+    {
+        background-image: url("../images/dynamic_background/DON_2647.webp");
+        background-position: 80%;
+    }
+    20%
+    {
+        background-image: url("../images/dynamic_background/DON_2695.webp");
+        background-position: 40%;
+    }
+    30%
+    {
+        background-image: url("../images/dynamic_background/DON_2837.webp");
+        background-position: 70%;
+    }
+    40%
+    {
+        background-image: url("../images/dynamic_background/DON_2911.webp");
+        background-position: 70%;
+    }
+    50%
+    {
+        background-image: url("../images/dynamic_background/DON_2920.webp");
+        background-position: 40%;
+    }
+    60%
+    {
+        background-image: url("../images/dynamic_background/DON_2937.webp");
+        background-position: 50%;
+    }
+    70%
+    {
+        background-image: url("../images/dynamic_background/DON_2984.webp");
+        background-position: 50%;
+    }
+    80%
+    {
+        background-image: url("../images/dynamic_background/DON_2873.webp");
+        background-position: 70%;
+    }
+    90%
+    {
+        background-image: url("../images/dynamic_background/DON_2724.webp");
+        background-position: 50%;
+    }
+    100%
+    {
+        background-image: url("../images/dynamic_background/DON_2573.webp");
+        background-position: 70%;
+    }
     }
 @-moz-keyframes change
+{
+    0%
     {
-        0%
-        {
-            background-image: url("../images/dynamic_background/DON_2573.webp");
-            background-position: 70%;
-        }
-        5%
-        {
-            background-image: url("../images/dynamic_background/DON_2776.webp");
-            background-position: 40%;
-        }
-        10%
-        {
-            background-image: url("../images/dynamic_background/DON_2647.webp");
-            background-position: 80%;
-        }
-        15%
-        {
-            background-image: url("../images/dynamic_background/DON_2648.webp");
-            background-position: 70%;
-        }
-        20%
-        {
-            background-image: url("../images/dynamic_background/DON_2695.webp");
-            background-position: 40%;
-        }
-        25%
-        {
-            background-image: url("../images/dynamic_background/DON_2684.webp");
-            background-position: 40%;
-        }
-        30%
-        {
-            background-image: url("../images/dynamic_background/DON_2837.webp");
-            background-position: 70%;
-        }
-        35%
-        {
-            background-image: url("../images/dynamic_background/DON_2845.webp");
-            background-position: 70%;
-        }
-        40%
-        {
-            background-image: url("../images/dynamic_background/DON_2911.webp");
-            background-position: 70%;
-        }
-        45%
-        {
-            background-image: url("../images/dynamic_background/DON_2920.webp");
-            background-position: 40%;
-        }
-        50%
-        {
-            background-image: url("../images/dynamic_background/DON_2924.webp");
-            background-position: 70%;
-        }
-        55%
-        {
-            background-image: url("../images/dynamic_background/DON_2937.webp");
-            background-position: 50%;
-        }
-        60%
-        {
-            background-image: url("../images/dynamic_background/DON_2950.webp");
-            background-position: 50%;
-        }
-        65%
-        {
-            background-image: url("../images/dynamic_background/DON_2957.webp");
-            background-position: 40%;
-        }
-        70%
-        {
-            background-image: url("../images/dynamic_background/DON_2985.webp");
-            background-position: 50%;
-        }
-        75%
-        {
-            background-image: url("../images/dynamic_background/DON_2984.webp");
-            background-position: 50%;
-        }
-        80%
-        {
-            background-image: url("../images/dynamic_background/DON_2873.webp");
-            background-position: 70%;
-        }
-        85%
-        {
-            background-image: url("../images/dynamic_background/DON_2666.webp");
-            background-position: 70%;
-        }
-        90%
-        {
-            background-image: url("../images/dynamic_background/DON_2724.webp");
-            background-position: 50%;
-        }
-        95%
-        {
-            background-image: url("../images/dynamic_background/DON_2734.webp");
-            background-position: 50%;
-        }
-        100%
-        {
-            background-image: url("../images/dynamic_background/DON_2573.webp");
-            background-position: 70%;
-        }
+        background-image: url("../images/dynamic_background/DON_2573.webp");
+        background-position: 70%;
     }
+    10%
+    {
+        background-image: url("../images/dynamic_background/DON_2647.webp");
+        background-position: 80%;
+    }
+    20%
+    {
+        background-image: url("../images/dynamic_background/DON_2695.webp");
+        background-position: 40%;
+    }
+    30%
+    {
+        background-image: url("../images/dynamic_background/DON_2837.webp");
+        background-position: 70%;
+    }
+    40%
+    {
+        background-image: url("../images/dynamic_background/DON_2911.webp");
+        background-position: 70%;
+    }
+    50%
+    {
+        background-image: url("../images/dynamic_background/DON_2920.webp");
+        background-position: 40%;
+    }
+    60%
+    {
+        background-image: url("../images/dynamic_background/DON_2937.webp");
+        background-position: 50%;
+    }
+    70%
+    {
+        background-image: url("../images/dynamic_background/DON_2984.webp");
+        background-position: 50%;
+    }
+    80%
+    {
+        background-image: url("../images/dynamic_background/DON_2873.webp");
+        background-position: 70%;
+    }
+    90%
+    {
+        background-image: url("../images/dynamic_background/DON_2724.webp");
+        background-position: 50%;
+    }
+    100%
+    {
+        background-image: url("../images/dynamic_background/DON_2573.webp");
+        background-position: 70%;
+    }
+}
 @-webkit-keyframes change
+{
+    0%
     {
-        0%
-        {
-            background-image: url("../images/dynamic_background/DON_2573.webp");
-            background-position: 70%;
-        }
-        5%
-        {
-            background-image: url("../images/dynamic_background/DON_2776.webp");
-            background-position: 40%;
-        }
-        10%
-        {
-            background-image: url("../images/dynamic_background/DON_2647.webp");
-            background-position: 80%;
-        }
-        15%
-        {
-            background-image: url("../images/dynamic_background/DON_2648.webp");
-            background-position: 70%;
-        }
-        20%
-        {
-            background-image: url("../images/dynamic_background/DON_2695.webp");
-            background-position: 40%;
-        }
-        25%
-        {
-            background-image: url("../images/dynamic_background/DON_2684.webp");
-            background-position: 30%;
-        }
-        30%
-        {
-            background-image: url("../images/dynamic_background/DON_2837.webp");
-            background-position: 70%;
-        }
-        35%
-        {
-            background-image: url("../images/dynamic_background/DON_2845.webp");
-            background-position: 70%;
-        }
-        40%
-        {
-            background-image: url("../images/dynamic_background/DON_2911.webp");
-            background-position: 70%;
-        }
-        45%
-        {
-            background-image: url("../images/dynamic_background/DON_2920.webp");
-            background-position: 40%;
-        }
-        50%
-        {
-            background-image: url("../images/dynamic_background/DON_2924.webp");
-            background-position: 70%;
-        }
-        55%
-        {
-            background-image: url("../images/dynamic_background/DON_2937.webp");
-            background-position: 50%;
-        }
-        60%
-        {
-            background-image: url("../images/dynamic_background/DON_2950.webp");
-            background-position: 50%;
-        }
-        65%
-        {
-            background-image: url("../images/dynamic_background/DON_2957.webp");
-            background-position: 40%;
-        }
-        70%
-        {
-            background-image: url("../images/dynamic_background/DON_2985.webp");
-            background-position: 50%;
-        }
-        75%
-        {
-            background-image: url("../images/dynamic_background/DON_2984.webp");
-            background-position: 50%;
-        }
-        80%
-        {
-            background-image: url("../images/dynamic_background/DON_2873.webp");
-            background-position: 70%;
-        }
-        85%
-        {
-            background-image: url("../images/dynamic_background/DON_2666.webp");
-            background-position: 70%;
-        }
-        90%
-        {
-            background-image: url("../images/dynamic_background/DON_2724.webp");
-            background-position: 50%;
-        }
-        95%
-        {
-            background-image: url("../images/dynamic_background/DON_2734.webp");
-            background-position: 50%;
-        }
-        100%
-        {
-            background-image: url("../images/dynamic_background/DON_2573.webp");
-            background-position: 70%;
-        }
+        background-image: url("../images/dynamic_background/DON_2573.webp");
+        background-position: 70%;
     }
+    10%
+    {
+        background-image: url("../images/dynamic_background/DON_2647.webp");
+        background-position: 80%;
+    }
+    20%
+    {
+        background-image: url("../images/dynamic_background/DON_2695.webp");
+        background-position: 40%;
+    }
+    30%
+    {
+        background-image: url("../images/dynamic_background/DON_2837.webp");
+        background-position: 70%;
+    }
+    40%
+    {
+        background-image: url("../images/dynamic_background/DON_2911.webp");
+        background-position: 70%;
+    }
+    50%
+    {
+        background-image: url("../images/dynamic_background/DON_2920.webp");
+        background-position: 40%;
+    }
+    60%
+    {
+        background-image: url("../images/dynamic_background/DON_2937.webp");
+        background-position: 50%;
+    }
+    70%
+    {
+        background-image: url("../images/dynamic_background/DON_2984.webp");
+        background-position: 50%;
+    }
+    80%
+    {
+        background-image: url("../images/dynamic_background/DON_2873.webp");
+        background-position: 70%;
+    }
+    90%
+    {
+        background-image: url("../images/dynamic_background/DON_2724.webp");
+        background-position: 50%;
+    }
+    100%
+    {
+        background-image: url("../images/dynamic_background/DON_2573.webp");
+        background-position: 70%;
+    }
+}
 /* Body  */
 
 
