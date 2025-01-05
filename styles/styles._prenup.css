@@ -4,7 +4,13 @@
     margin: 0;
     border: 0;
     padding: 0;
-    overflow: hidden;
+}
+
+
+body 
+{
+    overflow-x:hidden;
+    background-color: #e9d6f0;
 }
 
 
@@ -23,7 +29,6 @@
 {
     background-color: #e9d6f0;
     width: 100dvw;
-    height: 86vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -43,7 +48,7 @@
 
 #body-content-layer
 {
-    height: 100%;
+    background-color: #e9d6f0;
     width: 100%;
     position: absolute;
     display: flex;
@@ -51,7 +56,18 @@
     align-items: center;
     flex-direction: column;
     z-index: 0;
+    padding: 0 0 3% 0;
 }
+
+#center-body-video
+{
+    width: 50dvw;
+    height: 60dvh;
+    margin: 0 0 2% 0;
+}
+
+
+
 
 #center-body-image
 {
@@ -59,8 +75,8 @@
     background-position: 70%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75%;
-    width: 50%;
+    height: 80dvh;
+    width: 50dvw;
     display: flex;
     -webkit-animation: 80s change linear 0s infinite;
     -moz-animation: 80s change linear 0s infinite;
@@ -406,6 +422,21 @@
     /* Grouped Designs */
     
     /* Body */
+
+    #center-body-image
+    {
+        height: 70dvh;
+        width: 50dvw;
+    }
+
+    #center-body-video
+    {
+        width: 50dvw;
+        height: 60dvh;
+        margin: 0 0 2% 0;
+    }
+
+
     #center-body-overlay img
     {
         width: 90%;
@@ -427,12 +458,20 @@
 @media (max-width: 850px) {
     #body-content-layer
     {
-        padding: 5% 0 10% 0;
+        padding: 0 0 10% 0;
     }
+
+    #center-body-video
+    {
+        width: 80dvw;
+        height: 60dvh;
+        margin: 0 3% 2% 0;
+    }
+    
     #center-body-image
     {
-        height: 70%;
-        width: 90%;
+        height: 90dvh;
+        width: 80dvw;
     }
 
     #center-body-overlay img
@@ -456,9 +495,23 @@
 
 
 @media (max-width: 500px) {
+    #center-body-video
+    {
+        width: 80dvw;
+        height: 40dvh;
+        margin:0 3% 2% 0;
+    }
+    
+    #center-body-image
+    {
+        height: 60dvh;
+        width: 80dvw;
+        margin: 0 3% 0 0;
+    }
+
     #body-content-layer
     {
-        padding: 0% 0 0% 0;
+        padding: 0% 0 3% 0;
     }
 
     
@@ -475,7 +528,7 @@
 
 /* Height */
 
-@media (max-height: 670px) 
+@media (max-height: 600px) 
 {
     #center-body-overlay img
     {
